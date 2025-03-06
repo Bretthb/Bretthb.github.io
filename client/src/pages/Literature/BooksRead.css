@@ -1,0 +1,37 @@
+.BookContainer {
+    background-image: linear-gradient(20deg, rgb(255, 251, 247), rgb(255, 255, 255));
+    position: relative;
+    display: block;
+    width: 320px;
+    left: 10%;
+    padding: 0px;
+    margin-top: 10px;
+    outline-style: solid;
+    outline-color: rgb(173, 171, 171);
+    text-align: center;
+    text-overflow: clip;
+    cursor: pointer; /* Makes the entire container clickable */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for background and scaling */
+  }
+  
+  .BookContainer:hover {
+    background-color: rgba(255, 242, 229, 0.8); /* Change background color slightly */
+    transform: scale(1.05); /* Slightly increase size when hovered */
+  }
+  
+  .Image {
+    display: block;
+    outline-style: solid;
+    outline-color: rgb(184, 179, 179);
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .BookPage {
+    position: relative;
+    background-color: snow;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
