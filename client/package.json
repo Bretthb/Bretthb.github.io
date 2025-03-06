@@ -1,6 +1,5 @@
 {
-  "homepage": "http://Bretthb.github.io/Personal-Website",
-  "name": "Bretthb.com",
+  "name": "Brett's Website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
